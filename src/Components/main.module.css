@@ -1,0 +1,28 @@
+.mainPage {
+    height: 100vh;
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(26, 26, 32, 0.83) 50%, rgb(21, 7, 28) 98%);
+    position: absolute;
+    width: 100%; 
+
+
+}
+
+.mainHeader {
+    color: rgb(194, 194, 194);
+    font-weight: 700;
+    font-size: 70px;
+    font-family:"BebasNeue";
+    text-align: center;
+    margin: 10% auto 0px auto;
+    padding: 10px;
+    animation: appear 5s forwards;
+}
+
+@keyframes appear{
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
